@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box; 
+}
+body{
+    background-color: #001e4d;
+}
+.app{
+    display:block;
+    background-color: white;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+.app h1{
+   font-size: 25px;
+   color: #001e4d;
+   font-weight: 600;
+   border-bottom: 1px solid #333;
+   padding-bottom: 30px; 
+}
+.quiz{
+    padding: 20px 0;
+}
+.quiz h2{
+    font-size: 18px;
+    color: #001e4d;
+    font-weight: 600;
+}
+.btn{
+    background-color: #fff;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btn:hover:not([disabled]){
+    background-color: #222;
+    color: #fff;
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+#next{
+    background-color: #001e4d;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+
+}
+.correct{
+    background-color:rgb(108, 252, 108);
+}
+.incorrect{
+ background-color:rgb(254, 97, 97);
+}
+.head{
+    color: white;
+    text-align: center;
+}
+.h3{
+    font-family:cu;
+}
+.box{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box img{
+    width: 30%;
+    height: 250px;
+    border-radius: 70%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.imgclick{
+    margin-top: 3rem;
+    font-size: xx-large;
+    background-color:blue;
+    color: #fff;
+    font-weight: 500;
+    border: 4px solid white;
+    cursor: pointer;
+    border-radius: 10px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+.imgclick:hover{
+    background-color: white;
+    color: black;
+}
+.go{
+    display: block;
+}
+.goo{
+    display: none;
+}
+.btn1{
+    font-size: xx-large;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border: 10px solid black;
+    background-color:black;
+    color: aliceblue;
+    cursor: pointer;
+}
